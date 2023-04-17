@@ -267,7 +267,7 @@ img {
   gap: 24px;
 }
 
-.about-icons-images {
+.about-icons-item {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -335,15 +335,9 @@ img {
   border-radius: 0px 0px 4px 4px;
 }
 
-.team-photo {
-  padding-bottom: 32px;
-  padding-top: 32px;
-}
-
 .team-details {
+  padding-top: 32px;
   padding-bottom: 32px;
-  padding-left: 16px;
-  padding-right: 16px;
 }
 
 .team-title-name {
