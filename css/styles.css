@@ -162,10 +162,19 @@ img {
 /* Hero styles */
 
 .hero {
-  background-color: var(--navy-blue-bg);
   text-align: center;
   padding-top: 188px;
   padding-bottom: 188px;
+
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--grey);
+  background-image: url(../images/hero/hero_image.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
 }
 
 .hero-title {
