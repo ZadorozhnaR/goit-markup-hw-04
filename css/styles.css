@@ -367,6 +367,57 @@ img {
   text-align: center;
 }
 
+/* Section 4 */
+
+.customer-section {
+  padding-bottom: 120px;
+}
+
+.customer-title {
+  margin-bottom: 72px;
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+
+  color: var(--navy-blue);
+}
+
+.customer-icons-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.customers-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 168px;
+  height: 88px;
+
+  border: 1px solid var(--light-slate);
+  border-radius: 4px;
+}
+
+.customer-icon {
+  fill: var(--light-slate);
+}
+
+.customer-icon:hover,
+.customer-icon:focus {
+  fill: var(--ocean);
+}
+
+.customers-link:hover,
+.customers-link:focus {
+  border: 1px solid var(--ocean);
+}
+
 /* Icons */
 
 .socials {
