@@ -259,6 +259,27 @@ img {
   margin-right: 0px;
 }
 
+.about-icons-cont {
+  margin-bottom: 8px;
+}
+
+.about-icons-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.about-icons-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 264px;
+  height: 112px;
+
+  background: var(--cloud);
+  border-radius: 4px;
+}
+
 /* Section 2 styles */
 
 .projects-section {
