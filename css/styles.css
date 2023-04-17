@@ -271,6 +271,12 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.about-icons-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 264px;
   height: 112px;
 
